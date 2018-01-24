@@ -5,7 +5,7 @@ const initialState = [
         title: '(WIP) Tonhuis',
         subtitle: 'A website for my uncle\'s business.',
         description: 'Currently a static **HTML and CSS** website powered by **Bootstrap**, it will soon have an **Angular** (5) frontend using `Contentful` as **CMS**.', 
-        img: '/img/tonhuis.png', 
+        img: 'img/tonhuis.png', 
         links: [
             {icon: 'globe', link: 'http://www.tonhuis.be/'}
         ]
@@ -15,7 +15,7 @@ const initialState = [
         title: 'Portfolio',
         subtitle: 'This website!',
         description: 'I made this portfolio to refresh my **React** and **Redux** knowledge. It also uses `react-router` with history, `reactstrap` for **Bootstrap** 4 components and `react-markdown` to style descriptions like this one!', 
-        img: '/img/uc.png', 
+        img: 'img/uc.png', 
         links: [
             {icon: 'globe', link: 'https://carnewal.github.io/'},
             {icon: 'github', link: 'https://github.com/Carnewal/carnewal.github.io' }
