@@ -1,3 +1,5 @@
+# Portfolio: Brecht Carnewal 
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## Table of Contents
@@ -8,22 +10,30 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - [npm test](#npm-test)
   - [npm run build](#npm-run-build)
   - [npm run eject](#npm-run-eject)
+  - [npm run deploy](#npm-run-deploy)
 
 ## Technologies
 
 The generated project includes React and ReactDOM as dependencies. It also includes a set of scripts used by Create React App as a development dependency. You may install other dependencies (for example, React Router) with `npm`:
 
 ```
+  "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-fontawesome": "^1.6.1",
+    "react-markdown": "^3.1.4",
     "react-parallax": "^1.6.0",
     "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
     "react-router-redux": "^5.0.0-alpha.9",
     "react-scripts": "1.1.0",
     "reactstrap": "^5.0.0-alpha.4",
     "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
 ```
 
 ## Available Scripts
@@ -62,3 +72,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+### `npm run deploy`
+
+Builds the project for production and pushes the built files to a `gh-pages` branch on the current git repository (powered by `gh-pages`). The page will be available under [username].github.io/Portfolio if the repository is called `Portfolio`.

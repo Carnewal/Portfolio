@@ -4,7 +4,7 @@ const initialState = [
         year: '2018', 
         title: '(WIP) Tonhuis',
         subtitle: 'A website for my uncle\'s business.',
-        description: 'Currently a static **HTML and CSS** website powered by **Bootstrap**, it will soon have an **Angular** (5) frontend using `Contentful` as **CMS**.', 
+        description: 'Currently a static **HTML and CSS** website powered by **Bootstrap**, it will soon have an **Angular** 5 frontend using `Contentful` as **CMS**.', 
         img: 'img/tonhuis.png', 
         links: [
             {icon: 'globe', link: 'http://www.tonhuis.be/'}
@@ -17,8 +17,8 @@ const initialState = [
         description: 'I made this portfolio to refresh my **React** and **Redux** knowledge. It also uses `react-router` with history, `reactstrap` for **Bootstrap** 4 components and `react-markdown` to style descriptions like this one!', 
         img: 'img/uc.png', 
         links: [
-            {icon: 'globe', link: 'https://carnewal.github.io/'},
-            {icon: 'github', link: 'https://github.com/Carnewal/carnewal.github.io' }
+            {icon: 'globe', link: 'https://carnewal.github.io/Portfolio'},
+            {icon: 'github', link: 'https://github.com/Carnewal/Portfolio' }
         ]
     },
     {
@@ -73,7 +73,7 @@ const initialState = [
         year: '2014', 
         title: 'Carnewal',
         subtitle: 'Website for my dad\'s business.',
-        description: 'In 2014 this site was still running flash. I decided this wasn\'t OK and made a **HTML and CSS** clone served with **PHP**. I was very proud at the time, even the **MySQL** queries are made by hand!', 
+        description: 'In 2014 this site\'s frontend was still running flash. I decided this wasn\'t OK and made a **HTML and CSS** clone served with **PHP**. I was very proud at the time, even the **MySQL** queries are made by hand!', 
         img: 'img/carnewal.png', 
         links: [
             {icon: 'globe', link: 'http://www.carnewal.com'}
