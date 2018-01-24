@@ -7,7 +7,7 @@ import Timeline from '../containers/Timeline'
 import Home from './Home'
 
 
-import {Route} from 'react-router'
+import {Route, Redirect} from 'react-router'
 
 
 class App extends Component {
@@ -15,10 +15,10 @@ class App extends Component {
     return (
       <div className="App">
         <Navigation />
-
+        <Redirect from="/*" to="/home" />
+        <Route exact path="/portfolio" render={() => <Portfolio/>}/>
+        <Route exact path="/timeline" render={() => <Timeline/>}/>
         <Route path="/home" render={() => <Home/>}/>
-        <Route path="/portfolio" render={() => <Portfolio/>}/>
-        <Route path="/timeline" render={() => <Timeline/>}/>
 
       </div>
     );
