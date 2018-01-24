@@ -35,7 +35,7 @@ const initialState = [
         year: '2016', 
         title: 'PieSync',
         subtitle: 'Internship and student job.',
-        description: 'My task was to migrate the Dashboard app\'s **Ruby on Rails** server rendered views to the client with **JavaScript**: I learned all about writing and **Testing** code with **React**, **Redux**, **Redux Saga**, `mocha`, `chai`, `enzyme` and `sinon`. Working in a **team** of great people and using tools like **Git** nad **Slack** was an amazing experience I\'ll never forget.', 
+        description: 'My task was to migrate the Dashboard app\'s **Ruby on Rails** server rendered views to the client. I learned all about writing and **Testing** code with **React**, **Redux**, **Redux Saga**, `mocha`, `chai`, `enzyme` and `sinon`. Working in a **team** of great people and using tools like **Git** and **Slack** was an amazing experience I\'ll never forget.', 
         img: 'img/piesync.png', 
         links: [
             {icon: 'globe', link: 'https://app.piesync.com/'},
