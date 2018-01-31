@@ -4,7 +4,7 @@ const initialState = [
         year: '2018', 
         title: '(WIP) Tonhuis',
         subtitle: 'A website for my uncle\'s business.',
-        description: 'Currently a static **HTML and CSS** website powered by **Bootstrap**, it will soon have an **Angular** 5 frontend using `Contentful` as **CMS**.', 
+        description: 'A single-page website powered by **Angular** 5 and **Directus**, a headless **PHP** **CMS** that\'s all about exposing API endpoints.', 
         img: 'img/tonhuis.png', 
         links: [
             {icon: 'globe', link: 'http://www.tonhuis.be/'}
