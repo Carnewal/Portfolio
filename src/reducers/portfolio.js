@@ -4,7 +4,7 @@ const initialState = [
         year: '2018', 
         title: 'Tonhuis',
         subtitle: 'A website for my uncle\'s business.',
-        description: 'A single-page website powered by **Angular** 5 and **Bootstrap** with `Directus`, a headless **PHP** **CMS** that\'s user friendly with lots of flexibility for developpers.', 
+        description: 'A single-page website powered by **Angular** 5 and **Bootstrap** with `Directus`, a headless **PHP** **CMS** that\'s user friendly and provides the right amount of flexibility for developers.', 
         img: 'img/tonhuis.png', 
         links: [
             {icon: 'globe', link: 'http://www.tonhuis.be/'}
