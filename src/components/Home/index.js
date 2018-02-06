@@ -11,7 +11,7 @@ class Home extends Component {
             <div className='container'>
                 <h2>Hi, Hello, Welcome!</h2> 
                 <h1>I'm Brecht Carnewal.</h1>
-                <p>I'm a very passionate software developper. Check out my <Link to='/portfolio'>Portfolio</Link> if you want to see who and what I've worked with so far.</p>
+                <p>I'm a very passionate software developer. Check out my <Link to='/portfolio'>Portfolio</Link> if you want to see who and what I've worked with so far.</p>
                 <br/>
                 <p>                   
                     Ever since I wrote my first few lines of code I knew this was something I'd be doing for the rest of my life, be it as a hobby or a job. <br/>
