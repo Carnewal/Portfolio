@@ -38,7 +38,7 @@ const initialState = {
             year: '2014',
             icon: 'car',
             title: 'Im learnding!', 
-            description: 'Before I started my Bachelors Degree Applied Informatics at Hogeschool Gent, I kept improving my coding skills on my own. Finally being taught about **OOP, Java, JavaScript and jQuery** in school was something I had dreamed of ever since I was a little kiddo. This year I also learned how to drive, which gave me access to many things I couldn\'t do before, like driving to the gym or rugby practice on my own!'
+            description: 'Before I started my Bachelors Degree Applied Informatics at Hogeschool Gent, I kept improving my coding skills on my own. Finally being taught about **OOP, Java, JavaScript and jQuery** in school was something I had dreamed of ever since I was a little kiddo. This year I also learned how to drive, which gave me access to many things I couldn\'t do before, like driving to the gym or rugby practice on my own! I also got a student job in **Java** at ON Semiconductor.'
         },
         {
             year: '2013 and before',
